@@ -8,7 +8,7 @@ import '../models/news_model.dart';
 class NewsService {
   String endpoint = 'https://newsapi.org/v2/top-headlines?country=in';
   final Map<String, String> _headers = {
-    'X-Api-Key': '58d2bdaa0ebc4339959f67a1a9dcb5ce',
+    'X-Api-Key': '', //Put your API key here
   };
 
   //get top headlines
